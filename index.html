@@ -1,20 +1,99 @@
 <!DOCTYPE html> <!-- Her html sayfası doctype ile başlar. -->
-<html lang="tr"> <!-- lang = "tr" ile sitemizin dilini belirttik. -->
-    <head>
-        <meta charset="utf-8"> <!-- Karakter setimizi belirttik. -->
-    </head>
-    <body>
-        <h1>Ramazan Şen</h1> <!-- Ana başlığımız -->
-        <h2>Hakkımda</h2> <!-- Alt başlığımız -->
-        <!-- Paragraflarımızı yazdık. -->
-        <p>Merhaba, ben Ramazan Şen! Bilimkurgu izlemeyi ve okumayı çok severim. Makine mühendisiyim ve yazılım ile ilgileniyorum, kendimi bu alanda geliştirmeye çalışıyorum.</p>
-        <h2>Sevdiğim Filmler</h2> <!-- Alt başlık -->
-        <h3>Star Trek: The Next Genaration</h3> <!-- Alt başlık -->
-        <p>Uzay Yolu: Yeni Nesil (Star Trek: The Next Generation) Gene Roddenberry tarafından yaratılmış olan kurgusal Uzay Yolu evreninde geçen bir bilim kurgu dizisidir. Türkiye'de 1990-1997 yılları arasında Star TV'de yayınlanmıştır.</p>
+<html lang="en"> <!-- lang = "tr" ile sitemizin dilini belirttik. -->
+<head> <!-- Browser bölümü -->
+    <meta charset="UTF-8"> <!-- Karakter setimizi belirttik. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ramazan Şen</title>
+</head>
+<body>
+    <!-- → aynı sayfa içinde bir yere? ID bilgisine git -->
+    <li>
+        <a href="#footer">
+            En Alt Kısma Git
+        </a>
+    </li>
+    <!-- Ana başlık -->
+    <h1>Ramazan Şen</h1>
+    <!-- Alt başlık -->
+    <h2>Hakkımda</h2>
+    <p>
+        Merhaba, ben Ramazan Şen! Bilimkurgu izlemeyi ve okumayı çok severim. Makine mühendisiyim ve yazılım ile ilgileniyorum, kendimi bu alanda geliştirmeye çalışıyorum.
+    </p>
+    <h3>İlgi Alanlarım</h3>
+    <ol>
+        <div>
+            <li>
+                <!-- Kalın yazmak için strong inline kullandık.-->
+            <strong>Film</strong>
+                    <ul>
+                        <li>
+                            The Lord of the Rings: The Fellowship of the Ring
+                            <br>
+                            <br>
+                            <a href="https://www.imdb.com/title/tt0120737/?ref_=fn_al_tt_3" target="_blank">
+                                <img width="600" height="800" src="https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_FMjpg_UX1000_.jpg" alt="Yüzklerin Efendisi Yüzük Kardeşliği">
+                            </a>
+                            <p><strong><em> <!-- Kalın ve eğik inlinelar.-->
+                                Film hakkında daha fazla bilgi sahibi olmak için resim üzerine tıklarayak, imdb sitesinden yararlanabilirsiniz.
+                            </strong></em></p>
+                        </li>
+                        <li>
+                            Matrix
+                        </li>
+                        <li>
+                            Harry Potter
+                        </li>
+                    </ul> 
+            </li>
+        </div>
+        <div>
+            <li>
+                <strong>Dizi</strong>
+                    <ul>
+                        <li>Star Trek
+                            <br> <!-- Resim ile dizi adı arasında boşluk verdik.-->
+                            <br>
+                            <a href="https://www.imdb.com/title/tt0092455/" target="_blank">
+                                <img src="https://ikincieltanoto.com/img/lists/27/star-trek-tng-cast-where-are-they-now.jpg" alt="Star Trek">
+                            </a>
+                            <p><strong><em>
+                                Dizi hakkında daha fazla bilgi sahibi olmak için resim üzerine tıklarayak, imdb sitesinden yararlanabilirsiniz.
+                            </strong></em></p>
+                            <p>
+                                Uzay Yolu: Yeni Nesil (Star Trek: The Next Generation) Gene Roddenberry tarafından yaratılmış olan kurgusal Uzay Yolu evreninde geçen bir bilim kurgu dizisidir. Türkiye'de 1990-1997 yılları arasında Star TV'de yayınlanmıştır.
+                            </p>
 
-        <p>Bu dizide en çok dikkat çeken Enterprise gemisinin kaptan Jean-Luc Picard'dır. Tabi onun yanında filosunun tek robot asker Data, tek Klingon asker Worf gibi birçok ikonik Karakteri de mevcuttur.</p>
-        <h3>The Lord of the Rings</h3>
-        <h3>Starwars</h3>
-    </body>
-
+                            <p>
+                                Bu dizide en çok dikkat çeken Enterprise gemisinin kaptan Jean-Luc Picard'dır. Tabi onun yanında filosunun tek robot asker Data, tek Klingon asker Worf gibi birçok ikonik Karakteri de mevcuttur.
+                            </p>
+                        </li>
+                        
+                        <li>Dogs of Berlin</li>
+                        <li>Californication</li>
+                    </ul>
+            </li>
+        </div>
+        <div>
+            <li>
+                <strong>Kitap</strong>
+                    <ul>
+                        <li>
+                            İyi Aile Yoktur
+                            <br>
+                            <br>
+                            <a href="https://www.goodreads.com/book/show/41879768-i-yi-aile-yoktur" target="_blank">
+                                <img width="400" height="600" src="https://img.kitapyurdu.com/v1/getImage/fn:11558312/wh:true/wi:800" alt="İyi Aile Yoktur">
+                            </a>
+                            <p><strong><em>
+                                Kitap hakkında daha fazla bilgi almak için resim üzerine tıklayarak Goodreads'den daha fazla bilgi edinebilirsiniz.
+                            </p></em></strong>
+                        </li>
+                        <li>Fahrenheit 451</li>
+                        <li>Frankenstein</li>
+                    </ul>
+            </li>
+        </div>
+    </ol>
+    <h4 id="footer">Created by Ramazan</h4>
+</body>
 </html>
