@@ -9,5 +9,7 @@ Merhabalar,
 
 [patika.dev](https://www.patika.dev/tr)
 
+Ramazan Şen 
+
 [patika.dev](https://app.patika.dev/ramazansen)
 
