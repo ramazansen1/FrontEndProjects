@@ -9,7 +9,7 @@ Merhabalar,
 
 [patika.dev](https://www.patika.dev/tr)
 
-Ramazan Şen 
+Ramazan Şen patika.dev linki aşağıdadır;
 
 [patika.dev](https://app.patika.dev/ramazansen)
 
